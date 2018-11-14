@@ -10,7 +10,7 @@ class DashboardController extends Controller
     public function index()
     {
       $data = [
-        'title' => 'Adminello CMS'
+        'title' => 'Adminello'
       ];
   
       return view('adminello.index', $data);
