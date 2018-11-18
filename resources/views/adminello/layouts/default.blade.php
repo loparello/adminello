@@ -11,6 +11,8 @@
   <link rel="stylesheet" href="{{ URL::asset('css/app.css') }}">
 </head>
 <body>
+
+  @include('adminello.partials.navbar')
   
   @yield('content')
 

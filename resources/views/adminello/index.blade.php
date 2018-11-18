@@ -2,11 +2,12 @@
 
 @section('content')
 
-  <h1>{{ $title }}</h1>
-
   <div id="app">
 
-    <example-component></example-component>
+      <div class="jumbotron text-center">
+          <h1>Welcome to Adminello</h1>
+          <p>This is your dashboard - Work in progress</p>
+      </div>
 
   </div>
 
