@@ -30,5 +30,15 @@ php artisan key:generate
 ```
 This will automatically generate a key for the APP_KEY constant in the .env file.
 
+8. Update your database by running:
+```bash
+php artisan migrate
+```
+
 The CMS is ready to run on your localhost.
+
+NOTE: If you get errors when connecting to the database and running migrations, try to clear the configuration caches:
+```bash
+php artisan config:clear
+```
 
